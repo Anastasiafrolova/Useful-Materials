@@ -1,0 +1,13 @@
+n = int(input())
+
+
+def phib(n):
+    if n > 2:
+        return phib(n - 1) + phib(n - 2)
+    if n == 1:
+        return 1
+    if n == 2:
+        return 1
+
+
+print(phib(n))
